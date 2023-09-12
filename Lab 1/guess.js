@@ -1,3 +1,7 @@
+/*Completed by Adam Miszkiewicz and Kevin Bailey
+Part 1, 2, 5 done by Adam
+Part 3 and 4 done by Kevin */
+
 // STEP 1: Initialize game variables
       // STEP 1a: Pick random number
       var randomNumber = Math.floor(Math.random() * 50) + 1;
