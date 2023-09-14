@@ -52,4 +52,4 @@ for (var i = 0; i < airports.length; i++) {
 //new variable to calculate the average name length (divides the total by the length of the airports array)
 var avgNameLengthAirports = allAirportsLength/airports.length;
 var output = document.querySelector('p');
-output.textContent = "Average Length of Airports name: " + avgNameLengthAirports;
+output.textContent = "Average Length of Airports name: " + avgNameLengthAirports + " letters";
