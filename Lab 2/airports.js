@@ -1,5 +1,6 @@
-/* Part 1, 2 and 3 done by Adam M
-   Part 4,5, and Bonus done by Kevin B*/
+/* Part 1, 2 done by Adam M
+   Part 3, 4 done by Mario S
+   Part 5 and Bonus done by Kevin B*/
 
 
 // Get all the list items for the various airports
@@ -52,4 +53,4 @@ for (var i = 0; i < airports.length; i++) {
 //new variable to calculate the average name length (divides the total by the length of the airports array)
 var avgNameLengthAirports = allAirportsLength/airports.length;
 var output = document.querySelector('p');
-output.textContent = "Average Length of Airports name: " + avgNameLengthAirports + " letters";
+output.textContent = "Average Length of Airports name: " + avgNameLengthAirports;
