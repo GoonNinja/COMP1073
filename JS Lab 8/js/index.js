@@ -1,8 +1,7 @@
 var output = document.getElementById('output');
 
 //Create a hamburger object
-class Hamburger {
-    constructor(bun, veggie, cheese, sauce, meatType, pattyAmount, sides) {
+function Hamburger(bun, veggie, cheese, sauce, meatType, pattyAmount, sides) {
         this.bun = bun;
         this.veggie = veggie;
         this.cheese = cheese;
@@ -20,7 +19,6 @@ class Hamburger {
                 "Sides: " + this.sides;
         };
     }
-}
 
 //Create a hamburger with specific options
 var burger1 = new Hamburger('Sesame Seed',['Lettuce', 'Tomato', 'Red Onion'], 'Swiss', 'Ketchup', 'Beef', 'Double', 'Fries');
