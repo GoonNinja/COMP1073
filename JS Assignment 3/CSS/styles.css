@@ -1,0 +1,96 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 20px;
+    background: rgb(253, 187, 45);
+    background: linear-gradient(0deg, rgba(253, 187, 45, 0.95) 80%, rgba(34, 193, 195, 0.96) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+    border: 6px solid #000;
+    box-shadow: #000 14px 14px;
+    width: 500px;
+    padding: 1em;
+    display: none;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .7em;
+    margin-bottom: 2em;
+    font-size: 3em;
+    text-decoration: underline dotted 4px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.size,
+.ingredients,
+.protein {
+    margin-bottom: 2em;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 6px solid #000;
+    box-shadow: #000 14px 14px;
+}
+
+.size legend,
+.ingredients legend,
+.protein legend {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+label {
+ 
+    gap: .5em;
+    margin-bottom: .3em;
+    justify-content: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+label img{
+    width: 150px;
+}
+
+label span {
+    display: inline-block;
+    width: 250px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    font-size: 2em;
+    display: block;
+    margin-top: .8em;
+    margin-bottom: .5em;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+

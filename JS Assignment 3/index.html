@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Builder</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h2>Smoothie Builder</h2>
+
+    <div id="result"></div>
+
+    <form id="smoothieForm">
+
+        <fieldset class="size">
+            <legend>Choose Your Size</legend>
+            <label>
+                <span>Small</span>
+                <input type="radio" name="size" value="small"> $4
+            </label>
+
+            <label>
+                <span>Medium</span>
+                <input type="radio" name="size" value="medium"> $6
+            </label>
+            
+            <label>
+                <span>Large</span>
+                <input type="radio" name="size" value="large"> $8
+            </label>
+        </fieldset>
+
+        <fieldset class="ingredients">
+            <legend>Choose Your Ingredients</legend>
+            <label>
+                <img src="./Images/apple.png" alt="">
+           
+                <input type="checkbox" name="apple" data-name="Apple">
+            </label>
+
+            <label>
+
+   
+                <img src="./Images/banana.png" alt="">
+                <input type="checkbox" name="banana" data-name="Banana" >
+            </label>
+
+            <label>
+          
+                <img src="./Images/strawberry.png" alt="">
+                <input type="checkbox" name="strawberry" data-name="Strawberry">
+            </label>
+
+            <label>
+                <img src="./Images/blueberry.png" alt="">
+                <input type="checkbox" name="blueberry" data-name="Blueberry">
+            </label>
+
+            <label>
+                <img src="./Images/rasberry.png" alt="">
+                <input type="checkbox" name="rasberry" data-name="Rasberry">
+            </label>
+
+            <label>
+                <img src="./Images/cherry.png" alt="">
+                <input type="checkbox" name="cherry" data-name="Cherry">
+            </label>
+
+            <label>
+                <img src="./Images/grapes.png" alt="">
+                <input type="checkbox" name="grapes" data-name="Grapes">
+            </label>
+
+            <label>
+                <img src="./Images/pineapple.png" alt="">
+                <input type="checkbox" name="pineapple" data-name="Pineapple">
+            </label>
+
+            <label>
+                <img src="./Images/orange.png" alt="">
+                <input type="checkbox" name="orange" data-name="Orange">
+            </label>
+        </fieldset>
+
+        <fieldset class="protein">
+            <legend>(Optional) Protein Flavor</legend>
+            <label>
+                <span>Vanilla</span>
+                <input type="radio" name="flavor" value="vanilla">
+            </label>
+
+            <label>
+                <span>Chocolate</span>
+                <input type="radio" name="flavor" value="chocolate">
+            </label>
+            <label>
+                <span>Wild Berry</span>
+                <input type="radio" name="flavor" value="wild_berry">
+            </label>
+
+        </fieldset>
+
+        <button type="button" onclick="buildSmoothie()">Build Smoothie</button>
+        <button type="button" onclick="clearSelections()">Clear Selection</button>
+
+    </form>
+
+
+    <script src="./JS/script.js">
+    </script>
+
+</body>
+</html>
+
